@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PortalCameraManager : MonoBehaviour
 {
-    public Camera[] portalCameras; // Her bölüm için bir portal kamera
-    public RenderTexture portalTexture; // Tüm kameraların paylaşacağı RenderTexture
+    public Camera[] portalCameras; 
+    public RenderTexture portalTexture;
 
     private int currentActiveCameraIndex = -1;
 
@@ -15,7 +15,7 @@ public class PortalCameraManager : MonoBehaviour
     {
         
 
-        // Yeni aktif kamerayı devreye al
+        
         if (index >= 0 && index < portalCameras.Length)
         {
             currentActiveCameraIndex = index;
