@@ -12,7 +12,7 @@ public class GameData
     public float volumeAmbience;
     public float sensitivity;
 
-    // Varsayýlan deðerlerle oluþturucu
+    
     public GameData()
     {
         MazeLevelHard = MazeLevelEasy = MazeLevelMid = PlatformHardLevel = PlatformEasyLevel = 0f;
